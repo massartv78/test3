@@ -1,0 +1,44 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.app__title {
+    font-family: 'Press Start 2P', cursive;
+}
+
+.cards-container {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 0 50px;
+}
+
+.cards-example-container {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 0 50px;
+}
+
+#cards-example-title {
+    margin-left: 50px;
+    margin-top: 50px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.strengths {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+input[type=text], input[type=number], select, button {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
